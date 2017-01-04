@@ -1,0 +1,77 @@
+Index: src/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/index.html	(revision )
++++ src/index.html	(revision )
+@@ -0,0 +1,69 @@
++<!DOCTYPE html>
++<html ng-app="<%=appName%>" ng-controller="app as app">
++    <head>
++        <title ng-bind="app.title ? app.title + ' - Bangsoccer' : 'Bangsoccer'">Bangsoccer</title>
++
++        <!-- social media tags -->
++        <meta property="og:title" content="eMarket"/>
++        <meta property="og:type" content="website"/>
++        <meta property="og:url" content="http://upsport.do"/>
++        <meta property="og:image" content="http://upsport.do/assets/img/web/logo.png"/>
++        <meta property="og:description" content="eMarket es el portal numero uno de República Dominicana en clasificados, compra vende y publica tus anuncios gratis">
++
++        <meta charset="utf-8">
++        <meta http-equiv="X-UA-Compatible" content="IE=edge">
++        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
++        <link rel="apple-touch-icon" sizes="57x57" href="assets/favicons/apple-touch-icon-57x57.png">
++        <link rel="apple-touch-icon" sizes="60x60" href="assets/favicons/apple-touch-icon-60x60.png">
++        <link rel="apple-touch-icon" sizes="72x72" href="assets/favicons/apple-touch-icon-72x72.png">
++        <link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-touch-icon-76x76.png">
++        <link rel="apple-touch-icon" sizes="114x114" href="assets/favicons/apple-touch-icon-114x114.png">
++        <link rel="apple-touch-icon" sizes="120x120" href="assets/favicons/apple-touch-icon-120x120.png">
++        <link rel="apple-touch-icon" sizes="144x144" href="assets/favicons/apple-touch-icon-144x144.png">
++        <link rel="apple-touch-icon" sizes="152x152" href="assets/favicons/apple-touch-icon-152x152.png">
++        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon-180x180.png">
++        <link rel="icon" type="image/png" href="assets/favicons/favicon-32x32.png" sizes="32x32">
++        <link rel="icon" type="image/png" href="assets/favicons/android-chrome-192x192.png" sizes="192x192">
++        <link rel="icon" type="image/png" href="assets/favicons/favicon-96x96.png" sizes="96x96">
++        <link rel="icon" type="image/png" href="assets/favicons/favicon-16x16.png" sizes="16x16">
++        <link rel="manifest" href="assets/favicons/manifest.json">
++        <meta name="msapplication-TileColor" content="#ffffff">
++        <meta name="msapplication-TileImage" content="/mstile-144x144.png">
++        <meta name="theme-color" content="#ffffff">
++
++        <!-- compiled CSS -->
++        <% styles.forEach( function ( file ) { %>
++            <link rel="stylesheet" type="text/css" href="<%= file %>"/><% }); %>
++
++    </head>
++    <body flex layout="column" ng-style="{overflow: app.disable ? 'hidden' : 'initial'}">
++        <div ui-view="app" layout="column" flex></div>
++
++
++
++        <script>
++            var serverPath = '<%= serverPath %>';
++        </script>
++        <!-- Firebase -->
++        <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
++        <script type="text/javascript">
++            var config = {
++                apiKey: "AIzaSyCgC9QvQNfJqi-JOf1uLpPk15cIOiq2ZQ4",
++                authDomain: "bangsoccer-1382.firebaseapp.com",
++                databaseURL: "https://bangsoccer-1382.firebaseio.com",
++                storageBucket: "bangsoccer-1382.appspot.com",
++                messagingSenderId: "319371862941"
++            };
++            firebase.initializeApp(config);
++        </script>
++        <!-- compiled JavaScript -->
++        <% scripts.forEach( function ( file ) { %>
++            <script type="text/javascript" src="<%= file %>"></script>
++        <% }); %>
++        <!-- <span flex></span> -->
++        <!--  <div ng-hide="true" class="footer" layout="column" layout-align="end start">
++    <p class="md-body-1">2016 eMarket.do. Todos los Derechos Reservados</p>
++    <p class="md-body-1" hide-xs hide-sm>El uso de esta página esta sujeto a la aceptación de las Políticas de la Institución. Hosted by Dominet.net</p> -->
++    </div>
++</body>
++</html>

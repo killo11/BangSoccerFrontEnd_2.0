@@ -1,0 +1,169 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose readDependencies loading dependencies from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\package.json
+5 verbose install where, deps [ 'C:\\Users\\killo\\Desktop\\BangSoccerFrontEndWebApp-master',
+5 verbose install   [ 'grunt',
+5 verbose install     'grunt-bump',
+5 verbose install     'grunt-coffeelint',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-coffee',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-less',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-conventional-changelog',
+5 verbose install     'grunt-express',
+5 verbose install     'grunt-html2js',
+5 verbose install     'grunt-ng-annotate',
+5 verbose install     'lodash' ] ]
+6 verbose install where, peers [ 'C:\\Users\\killo\\Desktop\\BangSoccerFrontEndWebApp-master',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\package.json
+8 info preinstall upsport@0.1.1
+9 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\bower\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-bump\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-coffeelint\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-clean\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-coffee\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-concat\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-copy\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-jshint\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-less\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-uglify\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-watch\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-conventional-changelog\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-express\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-html2js\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-ng-annotate\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\install\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\lodash\package.json
+27 info package.json grunt-coffeelint@0.0.16 No license field.
+28 info package.json grunt-express@1.4.1 No license field.
+29 info package.json grunt-html2js@0.3.6 No license field.
+30 verbose readDependencies loading dependencies from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\package.json
+31 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\bower\package.json
+32 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt\package.json
+33 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-bump\package.json
+34 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-coffeelint\package.json
+35 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-clean\package.json
+36 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-coffee\package.json
+37 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-concat\package.json
+38 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-copy\package.json
+39 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-jshint\package.json
+40 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-less\package.json
+41 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-uglify\package.json
+42 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-contrib-watch\package.json
+43 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-conventional-changelog\package.json
+44 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-express\package.json
+45 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-html2js\package.json
+46 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\grunt-ng-annotate\package.json
+47 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\install\package.json
+48 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\lodash\package.json
+49 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\.bin\bower\package.json
+50 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\.bin\bower.cmd\package.json
+51 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\.bin\grunt\package.json
+52 verbose targetResolver reading package data from C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\.bin\grunt.cmd\package.json
+53 verbose already installed skipping grunt-contrib-less@~1.4.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+54 verbose already installed skipping grunt-contrib-uglify@~2.0.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+55 verbose already installed skipping grunt-contrib-watch@~1.0.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+56 verbose already installed skipping grunt-conventional-changelog@~6.1.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+57 verbose already installed skipping grunt-express@~1.4.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+58 verbose already installed skipping grunt-html2js@~0.3.6 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+59 verbose already installed skipping grunt-ng-annotate@~3.0.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+60 verbose already installed skipping lodash@~4.16.6 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+61 verbose already installed skipping grunt@~1.0.1 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+62 verbose already installed skipping grunt-bump@~0.8.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+63 verbose already installed skipping grunt-coffeelint@~0.0.16 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+64 verbose already installed skipping grunt-contrib-clean@^1.0.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+65 verbose already installed skipping grunt-contrib-coffee@^1.0.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+66 verbose already installed skipping grunt-contrib-concat@~1.0.1 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+67 verbose already installed skipping grunt-contrib-copy@^1.0.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+68 verbose already installed skipping grunt-contrib-jshint@~1.0.0 C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+69 silly install resolved []
+70 info build C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+71 info linkStuff upsport@0.1.1
+72 silly linkStuff upsport@0.1.1 has C:\Users\killo\Desktop as its parent node_modules
+73 verbose linkBins upsport@0.1.1
+74 verbose linkMans upsport@0.1.1
+75 verbose rebuildBundles upsport@0.1.1
+76 verbose rebuildBundles [ '.bin',
+76 verbose rebuildBundles   'bower',
+76 verbose rebuildBundles   'grunt',
+76 verbose rebuildBundles   'grunt-bump',
+76 verbose rebuildBundles   'grunt-coffeelint',
+76 verbose rebuildBundles   'grunt-contrib-clean',
+76 verbose rebuildBundles   'grunt-contrib-coffee',
+76 verbose rebuildBundles   'grunt-contrib-concat',
+76 verbose rebuildBundles   'grunt-contrib-copy',
+76 verbose rebuildBundles   'grunt-contrib-jshint',
+76 verbose rebuildBundles   'grunt-contrib-less',
+76 verbose rebuildBundles   'grunt-contrib-uglify',
+76 verbose rebuildBundles   'grunt-contrib-watch',
+76 verbose rebuildBundles   'grunt-conventional-changelog',
+76 verbose rebuildBundles   'grunt-express',
+76 verbose rebuildBundles   'grunt-html2js',
+76 verbose rebuildBundles   'grunt-ng-annotate',
+76 verbose rebuildBundles   'install',
+76 verbose rebuildBundles   'lodash' ]
+77 verbose rebuild bundle C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\bower
+78 info build C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\bower
+79 info preinstall bower@1.8.0
+80 info linkStuff bower@1.8.0
+81 silly linkStuff bower@1.8.0 has C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules as its parent node_modules
+82 verbose linkBins bower@1.8.0
+83 verbose link bins [ { bower: 'bin/bower' },
+83 verbose link bins   'C:\\Users\\killo\\Desktop\\BangSoccerFrontEndWebApp-master\\node_modules\\.bin',
+83 verbose link bins   false ]
+84 verbose linkMans bower@1.8.0
+85 verbose rebuildBundles bower@1.8.0
+86 info install bower@1.8.0
+87 info postinstall bower@1.8.0
+88 verbose rebuild bundle C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\install
+89 info build C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules\install
+90 info preinstall install@0.8.2
+91 info linkStuff install@0.8.2
+92 silly linkStuff install@0.8.2 has C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\node_modules as its parent node_modules
+93 verbose linkBins install@0.8.2
+94 verbose linkMans install@0.8.2
+95 verbose rebuildBundles install@0.8.2
+96 info install install@0.8.2
+97 info postinstall install@0.8.2
+98 info install upsport@0.1.1
+99 info postinstall upsport@0.1.1
+100 info prepublish upsport@0.1.1
+101 verbose validateInstall loading C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master\package.json for validation
+102 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+102 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+102 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+102 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+102 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+102 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+102 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+102 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+102 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+102 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+102 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+103 verbose cwd C:\Users\killo\Desktop\BangSoccerFrontEndWebApp-master
+104 error Windows_NT 6.1.7601
+105 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i"
+106 error node v4.5.0
+107 error npm  v2.15.9
+108 error code EPEERINVALID
+109 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+109 error peerinvalid Peer grunt-bump@0.8.0 wants grunt@>=1.0.1
+109 error peerinvalid Peer grunt-contrib-coffee@1.0.0 wants grunt@>= 0.4.5
+109 error peerinvalid Peer grunt-contrib-concat@1.0.1 wants grunt@>=0.4.0
+109 error peerinvalid Peer grunt-ng-annotate@3.0.0 wants grunt@>=0.4.5
+109 error peerinvalid Peer grunt-contrib-clean@1.0.0 wants grunt@>= 0.4.5
+109 error peerinvalid Peer grunt-coffeelint@0.0.16 wants grunt@>=0.4.0
+109 error peerinvalid Peer grunt-contrib-jshint@1.0.0 wants grunt@>=0.4.0
+109 error peerinvalid Peer grunt-express@1.4.1 wants grunt@~0.4.0
+109 error peerinvalid Peer grunt-html2js@0.3.6 wants grunt@>=0.4.0
+110 verbose exit [ 1, true ]

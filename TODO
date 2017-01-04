@@ -1,0 +1,40 @@
+Las categorias tienen multiple label, agregar un required al select
+
+Agregar loading a las imagenes
+
+Los custom error solo deben de aparecer despues de submit el formulario
+
+No permitir guardar el anuncio si aun no se han subido las imagenes
+
+Dar feedback cuando se le de clic a guardar
+
+Guardar el formulario en localstorage por si se refresca
+
+
+1 - Permisos  
+ - No permitir crear anuncios sin esta logueado
+ - No permitir acceso a mi perfil si no se esta logueado
+ - Solo modificar la informacion pertinente a un usuario
+
+5 - Anuncios premiums
+ - Dar fecha de caducidad a los anuncios premiums 
+ - Especificar la posicion del anuncio premium
+ - Tener un limite de anuncios premiums por seccion
+
+2 - Busqueda
+ - Realizar un full text search en el titulo y contenido
+ - Crear el view de los resultados
+ - Poder hacer paginacion con un infity scroll
+ - Poder aplicar los filtros correspondientes
+ - Dividir la busqueda por resultados relevantes y resultados relacionados
+
+
+3 - Perfil 
+ - listado de anuncios
+ - modificacion del perfil
+
+6 - Mensajeria
+
+4 - Planes
+ - Especificar los planes en las colecciones
+ - No permitir hacer cosas que esten fuera del plan
